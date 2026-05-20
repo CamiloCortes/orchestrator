@@ -1,0 +1,20 @@
+session:
+  encryption-key: ${CRIPT_KEY:PEGA-AQUI-LA-MISMA-ENCRYPTION-KEY-QUE-USAS-EN-AUTH-Y-CORES}
+
+spring:
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password:
+
+core:
+  usuarios:
+    url: http://localhost:8001
+  saldo:
+    url: http://localhost:8002
+  transferencias:
+    url: http://localhost:8003
+
+cors:
+  allowed-origin: http://localhost:3000
