@@ -56,8 +56,7 @@ export CRIPT_KEY="tu-clave-de-encriptacion"
 
 Desde la raíz del proyecto:
 
-```bash
-d:; cd d:\cursosIA\backend_daviplata\orchestrator-service
+
 ./gradlew.bat clean build
 ```
 
